@@ -10,7 +10,9 @@ I learned this project from the dataflair website, So if you have any problems t
 The link of the dataset I have used are:
 
 Image Dataset :- https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_Dataset.zip
+
 Text Dataset :- https://github.com/jbrownlee/Datasets/releases/download/Flickr8k/Flickr8k_text.zip
+
 This links are also present in dataflair website.
 
 Resource:
