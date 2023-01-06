@@ -1,6 +1,9 @@
 # Image_Caption_Generator
 A model which takes an image and give text description of that image.
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/87935713/210999671-9afbb0b2-5f2b-45a3-a03b-5bb95be94a51.gif)
+
+
 Note: Here I have used Google Colab for accomplishing this project.
 So all the paths of files in the code are according to google drive because I have mounted my google drive.
 So before running the code please ensure all the paths.
