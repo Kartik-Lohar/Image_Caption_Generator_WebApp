@@ -1,0 +1,10 @@
+pip install tensorflow
+pip install numpy
+pip install os
+pip install matplotlib
+pip install flask 
+pip install keras
+pip install PIL 
+pip install keras_preprocessing
+pip install pickle
+pip install werkzeug.utils
