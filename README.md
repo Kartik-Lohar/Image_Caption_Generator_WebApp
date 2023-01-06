@@ -13,6 +13,8 @@ Dataset: The dataset we have used is mainly known as Flickr8K dataset. Here 8K i
 
 (3) Flickr8K.trainImages.txt :- This files contains images names which are mainly used for training our model.
 
+(4) Flickr8K.testImages.txt :- This files contains images names which are mainly used for testing our model. 
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/87935713/210999671-9afbb0b2-5f2b-45a3-a03b-5bb95be94a51.gif)
 
 Process of training our model:
