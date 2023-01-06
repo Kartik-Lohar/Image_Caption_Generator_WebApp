@@ -74,4 +74,4 @@ Step 2 : Open your terminal and run the requirements.txt files which contains al
 
 Step 3: Change the Path in code according to your directory structure.
 
-Step 4: Run the file app.py file in your terminal which provied you a link of localhost. Copy that url and paste it on your browser an click enter and see the magic.
+Step 4: Run the file app.py file in your terminal which provide you a link of localhost. Copy that url and paste it on your browser and click enter and see the magic.
