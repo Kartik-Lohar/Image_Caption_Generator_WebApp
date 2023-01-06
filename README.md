@@ -67,6 +67,7 @@ https://data-flair.training/blogs/python-based-project-image-caption-generator-c
 For running webapp first run the CN-Image_caption_generator.ipynb file in google colab or juptyter notebook and uncomment the code of extracting the features Using xeception and the code of training the model. Save the model_1 folder,tokenizer.p,features.p,desc.txt into the directory where your whole code is present in PC.
 
 Steps to run the WebApp:
+
 Step 1 : First download whole code and files into your pc.
 
 Step 2 : Open your terminal and run the requirements.txt files which contains all the libraries needed for this web application.
