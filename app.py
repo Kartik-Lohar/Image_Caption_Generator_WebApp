@@ -28,16 +28,20 @@ def web_homepage():
 @app.route("/predictimage",methods = ["POST"])
 def textprediction():
     if request.method== "POST":
-        img = request.files["image"]
-        img_filename = secure_filename(img.filename)
-        img.save(os.path.join(upload_folder,img_filename))
-        img_path = os.path.join(upload_folder,img_filename)
 
-        pred_desc = test_descriptions(img_path)[0]
+        img = request.files["image"]  # getting the image from HTML
 
-        print(pred_desc)
+        img_filename = secure_filename(img.filename)  # Getting the name of the image
         
-        pred_desc = " ".join(pred_desc.split()[1:-1]).capitalize()
+        img.save(os.path.join(upload_folder,img_filename))  # Saving the image in static folder  
+        
+        img_path = os.path.join(upload_folder,img_filename) # getting the path of image present in static folder
+
+        pred_desc = test_descriptions(img_path)[0]   # Predicting the description of the image
+
+        print(pred_desc)  # debugging the image description
+        
+        pred_desc = " ".join(pred_desc.split()[1:-1]).capitalize() # removing start and end word from string
 
         return render_template("index1.html",img = img_path, desc = pred_desc)    
 
