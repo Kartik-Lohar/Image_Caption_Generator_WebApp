@@ -45,7 +45,7 @@ Step - 10: At the end we test our model on test images we the same procedure by 
 
 Step - 11: Analysing our model performance using a metrics BERT Score which is mainly used for analysing output in text.
 
-Result: We successfully created a WebApp of Image caption generator with Bert Score 95%.
+Result: We successfully created a WebApp of Image caption generator with Bleu Score 95%.
 
 
 
